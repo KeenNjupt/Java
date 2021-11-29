@@ -8,4 +8,7 @@ public static void main(String[] args) {
 		String t = s;  // 使t管理s管理的字符串
 		System.out.println(s1);
 		System.out.println(s2);
+		for(int i=0;i<s.length();i++) {
+			System.out.print(" "+s.charAt(i)); // 取字符串下标位置上的字符
+		}
 	}
