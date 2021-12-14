@@ -8,7 +8,7 @@ public class Item {
 		
 	}
 	public Item(String title,int playingtime) {
-		super();
+		super(); // 用来接收来自子类构造时传递的参数
 		this.title = title;
 		this.playingtime = playingtime;
 	}
